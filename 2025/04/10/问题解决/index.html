@@ -19,24 +19,25 @@
   <meta name="author" content="crazy cat">
   <meta name="keywords" content="">
   
-    <meta name="description" content="Hexo 使用攻略——添加分类与标签创建分类页，定义categories属性 按下win+R，输入cmd，在命令行中输入如下代码。 1hexo new page categories  依据给出的路径，找到index.md文件，加入type行如下。 123title: categoriesdate: 2025-04-10 20:51:00type: &quot;categories&quot;">
+    <meta name="description" content="搭建阿里云+typora+Picgo图床错误分析问题1：Picgo运行后找不到运行界面​	点击桌面右下角，找到Picgo图标，点击运行即可。 问题2 ：出现报错”you must log to use”​	需要在Picgo中选择一个图床设置为默认图床即可解决。 问题3：出现报错“请检查配置是否正确” ​	日志路径在程序运行结果里面已经有了，想看的话可以去看一下，如果找不到就在上面的状态栏找一下查看">
 <meta property="og:type" content="article">
-<meta property="og:title" content="添加分类和标签">
-<meta property="og:url" content="http://crazylab.com/2025/04/10/%E6%B7%BB%E5%8A%A0%E5%88%86%E7%B1%BB%E5%92%8C%E6%A0%87%E7%AD%BE/index.html">
+<meta property="og:title" content="问题解决">
+<meta property="og:url" content="http://crazylab.com/2025/04/10/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/index.html">
 <meta property="og:site_name" content="The Novice&#39;s Odyssey">
-<meta property="og:description" content="Hexo 使用攻略——添加分类与标签创建分类页，定义categories属性 按下win+R，输入cmd，在命令行中输入如下代码。 1hexo new page categories  依据给出的路径，找到index.md文件，加入type行如下。 123title: categoriesdate: 2025-04-10 20:51:00type: &quot;categories&quot;">
+<meta property="og:description" content="搭建阿里云+typora+Picgo图床错误分析问题1：Picgo运行后找不到运行界面​	点击桌面右下角，找到Picgo图标，点击运行即可。 问题2 ：出现报错”you must log to use”​	需要在Picgo中选择一个图床设置为默认图床即可解决。 问题3：出现报错“请检查配置是否正确” ​	日志路径在程序运行结果里面已经有了，想看的话可以去看一下，如果找不到就在上面的状态栏找一下查看">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://myblog.dawnlight.me//%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20250410210029.png">
-<meta property="article:published_time" content="2025-04-10T12:19:34.000Z">
-<meta property="article:modified_time" content="2025-04-10T13:25:23.676Z">
+<meta property="og:image" content="http://crazylab.com/2025/04/10/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/1.png">
+<meta property="og:image" content="http://crazylab.com/2025/04/10/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/2.png">
+<meta property="article:published_time" content="2025-04-10T15:11:26.000Z">
+<meta property="article:modified_time" content="2025-04-10T15:15:09.045Z">
 <meta property="article:author" content="crazy cat">
 <meta property="article:tag" content="Hexo">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://myblog.dawnlight.me//%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20250410210029.png">
+<meta name="twitter:image" content="http://crazylab.com/2025/04/10/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/1.png">
   
   
   
-  <title>添加分类和标签 - The Novice&#39;s Odyssey</title>
+  <title>问题解决 - The Novice&#39;s Odyssey</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -215,7 +216,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="添加分类和标签"></span>
+            <span id="subtitle" data-typed-text="问题解决"></span>
           
         </div>
 
@@ -226,7 +227,7 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2025-04-10 20:19" pubdate>
+        <time datetime="2025-04-10 23:11" pubdate>
           2025年4月10日 晚上
         </time>
       </span>
@@ -238,7 +239,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          370 字
+          192 字
         
       </span>
     
@@ -249,7 +250,7 @@
         
         
         
-          4 分钟
+          2 分钟
         
       </span>
     
@@ -295,48 +296,15 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">添加分类和标签</h1>
+            <h1 id="seo-header">问题解决</h1>
             
             
               <div class="markdown-body">
                 
-                <h1 id="Hexo-使用攻略——添加分类与标签"><a href="#Hexo-使用攻略——添加分类与标签" class="headerlink" title="Hexo 使用攻略——添加分类与标签"></a>Hexo 使用攻略——添加分类与标签</h1><h2 id="创建分类页，定义categories属性"><a href="#创建分类页，定义categories属性" class="headerlink" title="创建分类页，定义categories属性"></a>创建分类页，定义categories属性</h2><ul>
-<li><p>按下<code>win+R</code>，输入<code>cmd</code>，在命令行中输入如下代码。</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">hexo new page categories<br></code></pre></td></tr></table></figure>
-</li>
-<li><p>依据给出的路径，找到index.md文件，加入type行如下。</p>
-<figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs md">title: categories<br>date: 2025-04-10 20:51:00<br>type: &quot;categories&quot;<br></code></pre></td></tr></table></figure>
-</li>
-<li><p>保存并关闭文件。</p>
-</li>
-</ul>
-<h2 id="给文章添加”categories”属性"><a href="#给文章添加”categories”属性" class="headerlink" title="给文章添加”categories”属性"></a>给文章添加”categories”属性</h2><ul>
-<li><p>打开需要添加分类的文章，为其添加<code>categories</code>属性。</p>
-</li>
-<li><p>下方的<code>categories: 博客网站搭建</code>表示添加这篇文章到“博客网站搭建”这个分类。</p>
-</li>
-<li><p>注意：Hexo一篇文章只能属于一个分类，也就是说如果在“- 博客网站搭建”下方添加“-xxx”，Hexo不会产生两个分类， 而是把分类嵌套（即该文章属于 “- 博客网站搭建”下的 “-xxx ”分类）。</p>
-</li>
-</ul>
-<p><img src="https://myblog.dawnlight.me//%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20250410210029.png" srcset="/img/loading.gif" lazyload></p>
-<p>这样我们就成功给文章添加了分类，点击首页的“分类”可以看到该分类下面的所有文章。</p>
-<h2 id="创建标签选项，定义tags属性"><a href="#创建标签选项，定义tags属性" class="headerlink" title="创建标签选项，定义tags属性"></a>创建标签选项，定义tags属性</h2><ul>
-<li><p>按下<code>win+R</code>，输入<code>cmd</code>，在命令行中输入如下代码。</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">hexo new page tags<br></code></pre></td></tr></table></figure>
-</li>
-<li><p>依据给出的路径，找到index.md文件，加入type行如下。</p>
-<figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs md">title: tags<br>date: 2025-04-10 21:05:45<br>type: &quot;tags&quot;<br></code></pre></td></tr></table></figure>
-</li>
-<li><p>保存并关闭文件。</p>
-</li>
-</ul>
-<h2 id="给文章添加”tags”属性"><a href="#给文章添加”tags”属性" class="headerlink" title="给文章添加”tags”属性"></a>给文章添加”tags”属性</h2><ul>
-<li><p>打开需要添加标签的文章，为其添加<code>tags</code>属性。</p>
-</li>
-<li><p>一篇文章可以加多个tag。</p>
-</li>
-</ul>
-<p>这样我们就成功给文章添加了分类，点击首页的“分类”可以看到该分类下面的所有文章。</p>
+                <h1 id="搭建阿里云-typora-Picgo图床错误分析"><a href="#搭建阿里云-typora-Picgo图床错误分析" class="headerlink" title="搭建阿里云+typora+Picgo图床错误分析"></a>搭建阿里云+typora+Picgo图床错误分析</h1><h2 id="问题1：Picgo运行后找不到运行界面"><a href="#问题1：Picgo运行后找不到运行界面" class="headerlink" title="问题1：Picgo运行后找不到运行界面"></a>问题1：Picgo运行后找不到运行界面</h2><p>​	点击桌面右下角，找到Picgo图标，点击运行即可。<img src="/2025/04/10/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/1.png" srcset="/img/loading.gif" lazyload></p>
+<h2 id="问题2-：出现报错”you-must-log-to-use”"><a href="#问题2-：出现报错”you-must-log-to-use”" class="headerlink" title="问题2 ：出现报错”you must log to use”"></a>问题2 ：出现报错”you must log to use”</h2><p>​	需要在Picgo中选择一个图床设置为默认图床即可解决。</p>
+<h2 id="问题3：出现报错“请检查配置是否正确”"><a href="#问题3：出现报错“请检查配置是否正确”" class="headerlink" title="问题3：出现报错“请检查配置是否正确”"></a>问题3：出现报错“请检查配置是否正确”</h2><p><img src="/2025/04/10/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/2.png" srcset="/img/loading.gif" lazyload></p>
+<p>​	日志路径在程序运行结果里面已经有了，想看的话可以去看一下，如果找不到就在上面的状态栏找一下<strong>查看</strong>，找到<strong>显示</strong>，选择<strong>隐藏的项目</strong>即可。但是经过试验，大概率是因为在配置Picgo的时候，你的KeySecret是复制进去的，所以会报错，只要手动输入一遍就好了。</p>
 
                 
               </div>
@@ -382,8 +350,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>添加分类和标签</div>
-      <div>http://crazylab.com/2025/04/10/添加分类和标签/</div>
+      <div>问题解决</div>
+      <div>http://crazylab.com/2025/04/10/问题解决/</div>
     </div>
     <div class="license-meta">
       
@@ -427,18 +395,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2025/04/10/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/" title="问题解决">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">问题解决</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2025/04/09/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/" title="网站搭建">
-                        <span class="hidden-mobile">网站搭建</span>
+                      <a href="/2025/04/10/%E6%B7%BB%E5%8A%A0%E5%88%86%E7%B1%BB%E5%92%8C%E6%A0%87%E7%AD%BE/" title="添加分类和标签">
+                        <span class="hidden-mobile">添加分类和标签</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
